@@ -1,34 +1,34 @@
 import Card from "./Card";
 
-import "/src/cardimage/Data-Visualization-Tools.jpg";
-import "/src/cardimage/Deep-Learning.jpg";
-import "/src/cardimage/Machine-Learning.jpg";
-import "/src/cardimage/power-bi.webp";
-import "/src/cardimage/R-Programming.webp";
+import "/public/cardimage/Data-Visualization-Tools.jpg";
+import "/public/cardimage/Deep-Learning.jpg";
+import "/public/cardimage/Machine-Learning.jpg";
+import "/public/cardimage/power-bi.webp";
+import "/public/cardimage/R-Programming.webp";
 
 const Datascience = () => {
   return (
     <div className="condent">
       
       <Card
-        image="/src/cardimage/Machine-Learning.jpg"
+        image="/public/cardimage/Machine-Learning.jpg"
         title="Machine Learning"
         description=" Algorithms enabling computers to learn from data autonomously."
       /><Card
-        image="/src/cardimage/Deep-Learning.jpg"
+        image="/public/cardimage/Deep-Learning.jpg"
         title="Deep Learning"
         description="Advanced machine learning paradigm using neural networks for cognition."
       /><Card
-        image="/src/cardimage/R-Programming.webp"
+        image="/public/cardimage/R-Programming.webp"
         title="R-Programming"
         description="Statistical computing language for data analysis, visualization, and modeling."
       /><Card
-        image="/src/cardimage/Data-Visualization-Tools.jpg"
+        image="/public/cardimage/Data-Visualization-Tools.jpg"
         title="Data Visualization Tools"
         description=" Software for presenting data insights graphically, aiding comprehension."
       />
       <Card
-        image="/src/cardimage/power-bi.webp"
+        image="/public/cardimage/power-bi.webp"
         title="power bi"
         description="Business analytics tool for data visualization and interactive reports."
       />
